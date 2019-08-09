@@ -20,7 +20,6 @@ void PrimePrint(const int& times)
         {
             if (i % num == 0) 
                {
-                   return;
                } 
             else 
                {
