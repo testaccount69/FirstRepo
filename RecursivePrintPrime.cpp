@@ -19,13 +19,13 @@ void PrimePrint(const int& times)
         for (int num = i; num > 0; num--)
         {
             if (i % num == 0) 
-               {
-
-               } 
+            {
+                    
+            } 
             else 
-               {
-                   std::cout << num << std::endl;
-               }
+            {
+                std::cout << num << std::endl;
+            }
         }
     }
 }
