@@ -1,3 +1,4 @@
 git add . && \
-git commit . && \
-git push origin $0
+git commit . 
+#&& \
+#git push origin $0
