@@ -5,7 +5,9 @@ void PrimePrint(const int& times);
 int main(int argc, char ** argv)
 {    
     std::cout << argc << std::endl;
-    std::cout << argv[1] << std::endl;
+    for (int i = 0; i < argc; i++){ 
+        std::cout << argv[i] << std::endl;
+    }
     PrimePrint(atoi(argv[1]));
     return 0;   
 }
